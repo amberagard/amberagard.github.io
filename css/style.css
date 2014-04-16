@@ -1,46 +1,57 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 
 body {
-    background-image: url('../images/background.png');
+/*    background-image: url('../images/background.png');*/
     font-family: 'Raleway', sans-serif;
     padding-left: 20px;
     text-align: center;
     margin: auto;
-    width: 700px;
-    background-image-repeat: no-repeat;
+    width: 900px;
+/*    background-image-repeat: no-repeat;*/
+    background-color: #72A6A4;
 }
 
 h1 {
     font-size: 50px;
-    color: #FFF340;
-    font-weight: lighter;
+    color: #081A26;
 }
 
 a {
-    color: #FFF340;
+    color: #081A26;
     text-decoration: none;
+}
+
+.repo {
+/*    margin-top: 20px;*/
+    display: block;
 }
 
 .repo:hover {
     text-decoration: underline;
-    color: #9F69D6;
-}
-
-div {
-    margin-bottom: 15px;
+    color: #F0EAD2;
 }
 
 .icon {
-	margin-top: 50px;
 	text-align: center;
-	}
+    margin-top: 200px;
+}
 
 .icon a {
 	font-size: 50px;
-	color: #9F69D6;
+	color: #081A26;
 	margin: 50px;
 }
 
 .icon-twitter:hover,.icon-facebook:hover,.icon-github:hover,.icon-linkedin:hover {
-		color: #FFF340;
+		color: #F0EAD2;
+}
+
+img {
+    height: 200px;
+    display: inline;
+}
+
+.item {
+    display: inline-block;
+    margin: 20px;
 }
