@@ -1,0 +1,208 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script:700);
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 60px;
+  color: #9693A1;
+  font-family: 'Dancing Script', cursive;
+  margin: 20px 0px;
+}
+
+a {
+  color: #9693A1;
+  text-decoration: none;
+}
+
+.title {
+  color: #9693A1;
+  /*text-decoration: underline;*/
+  font-size: 25px;
+}
+
+.repo {
+  display: block;
+  margin-top: 10px;
+}
+
+.repo:hover {
+  color: #FAC26C;
+}
+
+.icon {
+	text-align: center;
+  margin-top: 75px;
+}
+
+.icon a {
+	font-size: 50px;
+	color: #9693A1;
+	margin: 50px;
+}
+
+.icon a:first-child {
+  display: none;
+}
+
+.icon-twitter:hover,.icon-facebook:hover,.icon-github:hover,.icon-linkedin:hover {
+	color: #FAC26C;
+}
+
+img {
+  height: 200px;
+  display: inline;
+  box-shadow: 2px 2px 7px #000000;
+}
+
+.item {
+  display: inline-block;
+  margin: 20px;
+}
+
+#navigation > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px;
+  padding: 15px;
+  font-weight: bolder;
+}
+
+#navigation > ul > li > a {
+  color: #FFFFFF;
+}
+
+#navigation > ul > li > a:hover {
+  color: #FAC26C;
+}
+
+#navigation {
+  background-color: #9693A1;
+  box-shadow: 1px 1px 5px;
+}
+
+#about, #home {
+  width: 700px;
+  margin: auto;
+}
+
+#portfolio {
+  width: 900px;
+  margin: auto;
+}
+
+p {
+  line-height: 150%;
+  color: #000000;
+}
+
+h2 {
+  color: #000000;
+}
+
+#navigation > ul {
+  padding: 0px;
+}
+
+/*Media Queries*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  h1 {
+    font-size: 110px;
+  }
+
+  .item {
+    width: 500px;
+    margin-bottom: 70px;
+  }
+
+  img {
+    height: 400px;
+  }
+
+  #navigation > ul > li{
+    font-size: 35px;
+  }
+
+  .icon a {
+    font-size: 90px;
+  }
+
+  .repo {
+    font-size: 30px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  h1 {
+    font-size: 80px;
+  }
+
+  #portfolio {
+    width: 300px;
+    margin: auto;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
